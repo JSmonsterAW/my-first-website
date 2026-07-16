@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Antoni's personal portfolio website about biotechnology, running, travel and web development."
+    >
+
+    <title>Antoni | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Navigation bar -->
+    <header class="site-header">
+
+        <nav class="navbar">
+
+            <a class="logo" href="index.html">
+                Antoni<span>.</span>
+            </a>
+
+            <!-- Mobile hamburger button -->
+            <button
+                class="menu-button"
+                id="menu-button"
+                type="button"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+                aria-controls="nav-links"
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <div class="nav-links" id="nav-links">
+
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="projects.html">Projects</a>
+                <a href="contact.html">Contact</a>
+
+                <!-- Light/dark theme button -->
+                <button
+                    class="theme-button"
+                    id="theme-button"
+                    type="button"
+                    aria-label="Activate dark theme"
+                    title="Change website theme"
+                >
+                    🌙
+                </button>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+    <main>
+
+        <!-- Main introduction -->
+        <section class="hero reveal">
+
+            <div class="hero-text">
+
+                <p class="small-title">
+                    WELCOME TO MY PORTFOLIO
+                </p>
+
+                <h1>
+                    Hi, I’m Antoni.
+
+                    <span>
+                        I’m learning web development.
+                    </span>
+                </h1>
+
+                <p class="hero-description">
+                    I am interested in biotechnology, running and travel.
+                    This portfolio is my first complete website created with
+                    HTML, CSS and JavaScript.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a
+                        class="primary-button"
+                        href="projects.html"
+                    >
+                        View my projects
+                    </a>
+
+                    <a
+                        class="secondary-button"
+                        href="about.html"
+                    >
+                        About me
+                    </a>
+
+                </div>
+
+                <a
+                    class="text-button"
+                    href="#interests"
+                >
+                    Explore my interests ↓
+                </a>
+
+            </div>
+
+            <div class="hero-image">
+
+                <img
+                    src="Images/_DSC2273.jpg"
+                    alt="A photograph of Antoni"
+                >
+
+            </div>
+
+        </section>
+
+        <!-- Interests -->
+        <section
+            class="interests reveal"
+            id="interests"
+        >
+
+            <div class="section-heading">
+
+                <p>WHAT I ENJOY</p>
+
+                <h2>My interests</h2>
+
+            </div>
+
+            <div class="cards">
+
+                <article class="card reveal">
+
+                    <div class="icon" aria-hidden="true">
+                        🧬
+                    </div>
+
+                    <h3>Biotechnology</h3>
+
+                    <p>
+                        I enjoy learning about molecular biology,
+                        microorganisms, laboratory methods and modern
+                        biotechnology.
+                    </p>
+
+                    <a
+                        class="card-link"
+                        href="projects.html"
+                    >
+                        Explore my science project →
+                    </a>
+
+                </article>
+
+                <article class="card reveal">
+
+                    <div class="icon" aria-hidden="true">
+                        🏃
+                    </div>
+
+                    <h3>Running</h3>
+
+                    <p>
+                        Running helps me stay active, focused and motivated.
+                        I am interested in pace, distance and training
+                        progress.
+                    </p>
+
+                    <a
+                        class="card-link"
+                        href="projects.html"
+                    >
+                        See the running tracker →
+                    </a>
+
+                </article>
+
+                <article class="card reveal">
+
+                    <div class="icon" aria-hidden="true">
+                        ✈️
+                    </div>
+
+                    <h3>Travel</h3>
+
+                    <p>
+                        I like discovering new countries, cultures and places,
+                        while learning how to organize trips effectively.
+                    </p>
+
+                    <a
+                        class="card-link"
+                        href="projects.html"
+                    >
+                        See the travel planner →
+                    </a>
+
+                </article>
+
+            </div>
+
+        </section>
+
+        <!-- Learning section -->
+        <section class="learning-section reveal">
+
+            <div class="learning-content">
+
+                <p class="small-title">
+                    MY LEARNING JOURNEY
+                </p>
+
+                <h2>
+                    Building this website one step at a time
+                </h2>
+
+                <p>
+                    HTML creates the structure, CSS controls the design and
+                    JavaScript adds interaction. This website allows me to
+                    practise all three technologies in one project.
+                </p>
+
+                <div class="technology-list">
+
+                    <div class="technology-item">
+
+                        <span class="technology-number">
+                            01
+                        </span>
+
+                        <div>
+                            <h3>HTML</h3>
+
+                            <p>
+                                Pages, headings, links, images, forms and
+                                semantic structure.
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <div class="technology-item">
+
+                        <span class="technology-number">
+                            02
+                        </span>
+
+                        <div>
+                            <h3>CSS</h3>
+
+                            <p>
+                                Responsive layouts, colors, animations,
+                                cards and dark mode.
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <div class="technology-item">
+
+                        <span class="technology-number">
+                            03
+                        </span>
+
+                        <div>
+                            <h3>JavaScript</h3>
+
+                            <p>
+                                Interactive menus, form validation, modal
+                                windows and page controls.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="code-card">
+
+                <div class="code-card-header">
+
+                    <span></span>
+                    <span></span>
+                    <span></span>
+
+                    <p>script.js</p>
+
+                </div>
+
+                <pre><code>const button =
+    document.querySelector("#theme-button");
+
+button.addEventListener("click", () =&gt; {
+    document.body.classList.toggle(
+        "dark-theme"
+    );
+});</code></pre>
+
+            </div>
+
+        </section>
+
+        <!-- Featured projects -->
+        <section class="featured-projects reveal">
+
+            <div class="section-heading">
+
+                <p>SELECTED WORK</p>
+
+                <h2>Featured projects</h2>
+
+            </div>
+
+            <div class="featured-project-grid">
+
+                <article class="featured-project-card reveal">
+
+                    <div class="featured-project-top">
+
+                        <span class="project-category">
+                            WEB DEVELOPMENT
+                        </span>
+
+                        <span class="featured-project-icon">
+                            💻
+                        </span>
+
+                    </div>
+
+                    <h3>Personal portfolio</h3>
+
+                    <p>
+                        A responsive multi-page portfolio with dark mode,
+                        animations, navigation and interactive components.
+                    </p>
+
+                    <a href="projects.html">
+                        View project →
+                    </a>
+
+                </article>
+
+                <article class="featured-project-card reveal">
+
+                    <div class="featured-project-top">
+
+                        <span class="project-category">
+                            SCIENCE
+                        </span>
+
+                        <span class="featured-project-icon">
+                            🧪
+                        </span>
+
+                    </div>
+
+                    <h3>Laboratory notes</h3>
+
+                    <p>
+                        A planned digital notebook for recording experiments,
+                        protocols, observations and results.
+                    </p>
+
+                    <a href="projects.html">
+                        View project →
+                    </a>
+
+                </article>
+
+            </div>
+
+            <div class="center-button">
+
+                <a
+                    class="primary-button"
+                    href="projects.html"
+                >
+                    See all projects
+                </a>
+
+            </div>
+
+        </section>
+
+        <!-- Contact call-to-action -->
+        <section class="home-call-to-action reveal">
+
+            <div>
+
+                <p class="small-title">
+                    LET'S CONNECT
+                </p>
+
+                <h2>
+                    Have an idea or project?
+                </h2>
+
+                <p>
+                    Visit my contact page and write me a message.
+                </p>
+
+            </div>
+
+            <a
+                class="primary-button"
+                href="contact.html"
+            >
+                Contact me
+            </a>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            © 2026 Antoni. My first website.
+        </p>
+
+        <div class="footer-links">
+
+            <a href="index.html">
+                Home
+            </a>
+
+            <a href="about.html">
+                About
+            </a>
+
+            <a href="projects.html">
+                Projects
+            </a>
+
+            <a href="contact.html">
+                Contact
+            </a>
+
+        </div>
+
+    </footer>
+
+    <!-- Back-to-top button -->
+    <button
+        class="back-to-top"
+        id="back-to-top"
+        type="button"
+        aria-label="Return to the top"
+        title="Return to the top"
+    >
+        ↑
+    </button>
+
+</body>
+
+</html>

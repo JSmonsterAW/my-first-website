@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact | Antoni</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<button
+    class="back-to-top"
+    id="back-to-top"
+    type="button"
+    aria-label="Return to the top"
+>
+    ↑
+</button>
+
+<body>
+
+<header class="site-header">
+    <nav class="navbar">
+
+        <a class="logo" href="index.html">
+            Antoni<span>.</span>
+        </a>
+
+        <button
+            class="menu-button"
+            id="menu-button"
+            type="button"
+            aria-label="Open navigation menu"
+            aria-expanded="false"
+        >
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <div class="nav-links" id="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+
+            <button
+                class="theme-button"
+                id="theme-button"
+                type="button"
+                aria-label="Change website theme"
+            >
+                🌙
+            </button>
+        </div>
+
+    </nav>
+</header>
+
+    <main>
+
+        <section class="page-header">
+            <p class="small-title">LET'S CONNECT</p>
+            <h1>Contact me</h1>
+
+            <p class="page-introduction">
+                Use the form below to write a message. For now, the form is
+                visual. Later, JavaScript or a server can make it fully functional.
+            </p>
+        </section>
+
+        <section class="contact-layout">
+
+            <div class="contact-information">
+                <h2>Contact information</h2>
+
+                <p>
+                    I am interested in biotechnology, web development,
+                    travel and creative projects.
+                </p>
+
+                <div class="contact-item">
+                    <span class="contact-icon">✉️</span>
+
+                    <div>
+                        <strong>Email</strong>
+                        <p>antekwyskwar@email.com</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <span class="contact-icon">📍</span>
+
+                    <div>
+                        <strong>Location</strong>
+                        <p>Europe</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <span class="contact-icon">💬</span>
+
+                    <div>
+                        <strong>Availability</strong>
+                        <p>Open to new ideas and projects</p>
+                    </div>
+                </div>
+            </div>
+
+            <form class="contact-form" id="contact-form" novalidate>
+
+                <div class="form-group">
+                    <label for="name">Your name</label>
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Enter your name"
+                        autocomplete="name"
+                        required
+                    >
+
+
+                <div class="form-group">
+                    <label for="email">Your email</label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Enter your email"
+                        autocomplete="email"
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+
+                    <input
+                        type="text"
+                        id="subject"
+                        name="subject"
+                        placeholder="What is your message about?"
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="6"
+                        placeholder="Write your message"
+                        required
+                    ></textarea>
+                </div>
+
+                <button type="submit" class="primary-button">
+                    Send message
+                </button>
+
+                <p
+                    class="form-message"
+                    id="form-message"
+                    aria-live="polite"
+                ></p>
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Antoni. My first website.</p>
+    </footer>
+
+</body>
+
+</html>
